@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.item {
+  height: 360px;
+  width: 200px;
+}
+
+.img {
+  height: 300px;
+}
+
+.item {
+  transition: box-shadow 250ms linear;
+}
+
+.item_title {
+  padding-top: 2px;
+  padding-left: 10px;
+}

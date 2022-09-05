@@ -1,0 +1,25 @@
+.header {
+  background-color: #2c4698;
+}
+
+.nav {
+  padding: 15px 0;
+  padding-left: 90px;
+
+  font-size: 20px;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+  margin-right: 20px;
+}
+
+
+
+.active {
+  composes: link;
+  color: #ce832d;
+}
